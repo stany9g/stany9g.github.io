@@ -12,6 +12,15 @@ print("hello world!")
 
 </details>
 
+
+<details><summary markdown="span">Let's see some code!</summary>
+```python
+print('Hello World!')
+```
+Of course, it has to be Hello World, right?
+</details>
+<br/>
+
 This is regular text
 
 ```ruby
