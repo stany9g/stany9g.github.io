@@ -8,30 +8,19 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-<details>
-<summary>Click to expand</summary>
+## collapsible markdown?
+
+<details><summary>CLICK ME</summary>
 <p>
-  
-```markdown
 
-# Header 1
-## Header 2
-### Header 3
+#### yes, even hidden code blocks!
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```python
+print("hello world!")
 ```
 
 </p>
 </details>
-
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
