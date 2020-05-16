@@ -2,7 +2,7 @@
 
 <details><summary>CLICK ME</summary>
 
-#### yes, even hidden code blocks!
+yes, even hidden code blocks!
 
 ```python
 
