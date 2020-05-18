@@ -157,7 +157,7 @@ INSERT INTO Employee(first_name, last_name, birth_date, sex, salary)  VALUES
 
 ```
 
-</details
+</details>
 
 ### Update data in table
 
@@ -176,3 +176,27 @@ WHERE condition;
 DELETE FROM table_name WHERE condition;
 
 ```
+
+## Retrieving data
+
+
+```SQL
+
+SELECT column_name FROM table_name
+WHERE condition
+OPTIONS
+
+```
+
+Example:
+
+```SQL
+
+SELECT first_name 
+FROM Employee
+ORDER BY emp_id ASC;
+
+```
+
+
+
