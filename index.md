@@ -118,7 +118,7 @@ VALUES(105, 'Andy', 'Nothere', '1973-07-22', 'M');
 ```
 
 </details>
-</br>
+
 ### Retrieve all data
 
 ```SQL
@@ -158,7 +158,7 @@ INSERT INTO Employee(first_name, last_name, birth_date, sex, salary)  VALUES
 ```
 
 </details>
-</br>
+
 
 ### Update data in table
 
@@ -269,7 +269,6 @@ CREATE TABLE works_with (
 ```
 
 </details>
-</br>
 
 <details><summary markdown="span">Fill in the data</summary>
 
@@ -318,7 +317,6 @@ INSERT INTO Works_with VALUES
 ```
 
 </details>
-</br>
 
 
 
