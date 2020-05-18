@@ -8,7 +8,7 @@
 * DATETIME - date + time
 * ...
 
-### OPTIONS
+### Options
 * PRIMARY KEY
 * FOREIGN KEY
 * NOT NULL
@@ -26,7 +26,7 @@ CREATE DATABASE name;
 
 ```SQL
 CREATE TABLE name (
-  column_name TYPE(length) OPTIONS,
+  column_name TYPE OPTIONS,
   ....
 );
 
@@ -39,6 +39,46 @@ CREATE TABLE name (
 DROP TABLE name;
 
 ```
+
+### Modify table
+
+```SQL
+
+ALTER TABLE name ADD column_name TYPE OPTIONS;
+
+```
+
+### Insert data
+```SQL
+
+INSERT INTO table_name (column1, column2, column3, ...)
+VALUES (value1, value2, value3, ...);
+
+```
+
+Inserting value for every column we can do just
+```SQL
+
+INSERT INTO table_name
+VALUES (value1, value2, value3, ...);
+
+```
+
+Multiple rows in one query 
+```SQL
+
+INSERT INTO table_name (column_list)
+VALUES
+    (value_list_1),
+    (value_list_2),
+    ...
+    (value_list_n);
+```
+
+
+Exercise1: 
+
+
 
 Task 1: 
 Create this table and fill it with data.
