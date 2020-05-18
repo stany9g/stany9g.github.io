@@ -1,26 +1,38 @@
-## Database basics | SQL
+# Database basics | SQL
 
-Presentation
+### Presentation
 
-Data types
+### Data types
+* INT - integer - numbers
+* VARCHAR - string - text
+* DATETIME - date + time
+* ...
 
-INT - integer - numbers
-VARCHAR - string - text
-DATETIME - date + time
-...
+### OPTIONS
+* PRIMARY KEY
+* FOREIGN KEY
+* NOT NULL
+* IDENTITY(1,1)
 
-Creating database
+### Creating database
 
 ```SQL
 
-CREATE DATABASE name (
+CREATE DATABASE name;
+
+```
+
+### Creating table
+
+```SQL
+CREATE TABLE name (
   column_name TYPE(length) OPTIONS,
   ....
 );
 
 ```
 
-Delete the table 
+### Delete the table 
 
 ```SQL
 
