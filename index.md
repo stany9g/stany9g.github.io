@@ -323,7 +323,43 @@ INSERT INTO Works_with VALUES
 <br/>
 
 
+## Functions
 
+```SQL
+
+SELECT COUNT(column_name)
+FROM table_name
+WHERE condition
+
+SELECT AVG(salary)
+FROM employee
+WHERE sex = 'M';
+
+SELECT SUM(salary)
+FROM employee;
+
+SELECT COUNT(sex), sex
+FROM employee
+GROUP BY sex;
+
+```
+
+### Final exercise
+
+Retrieve a sum of all sales for all employee ids
+
+<details><summary markdown="span">Fill in the data</summary>
+
+```SQL
+
+SELECT SUM(total_sales), emp_id
+FROM works_with
+GROUP BY emp_id;
+
+```
+
+</details>
+<br/>
 
 
 
