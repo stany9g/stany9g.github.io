@@ -78,7 +78,7 @@ VALUES
 
 Exercise:
 
-Create this table and fill the data
+1. Create this table and fill it with data
 
 ![Employee table](Employee_table.png)
 
@@ -87,6 +87,34 @@ Create this table and fill the data
 (102, 'Jana', 'Beauty', '1969-04-08', 'F', 50000),
 (103, 'Angela', 'Merkel', '1944-04-009', 'F', 15000),
 (104, 'Andy', 'Nothere', '1973-07-22', 'M', 65000),
+
+Add one more row with custom data where you do not state the salary (use first type of INSERT)
+
+<details><summary>Click to see solution </summary>
+
+```SQL
+
+CREATE TABLE Employee (
+	emp_id INT PRIMARY KEY,
+	first_name VARCHAR(25),
+	last_name VARCHAR(25),
+	birth_date DATE,
+	sex VARCHAR(1),
+	salary INT
+);
+
+INSERT INTO Employee VALUES
+(100, 'Jan', 'Good', '1964-07-12', 'M', 30000),
+(101, 'Petr', 'Bad', '1977-02-03', 'M', 45000),
+(102, 'Jana', 'Beauty', '1969-04-08', 'F', 50000),
+(103, 'Angela', 'Merkel', '1944-04-09', 'F', 15000),
+(104, 'Andy', 'Nothere', '1973-07-22', 'M', 65000);
+
+INSERT INTO Employee(emp_id, first_name, last_name, birth_date, sex) VALUES(105, 'Andy', 'Nothere', '1973-07-22', 'M');
+
+```
+
+</details>
 
 Task 1: 
 Create this table and fill it with data.
