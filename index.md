@@ -91,7 +91,7 @@ VALUES
 (104, 'Andy', 'Nothere', '1973-07-22', 'M', 65000),
 
 2. Add one more row with custom data where you do not state the salary (use first type of INSERT)
-	
+</br>
 <details><summary markdown="span">Click to see the solution!</summary>
 
 ```SQL
