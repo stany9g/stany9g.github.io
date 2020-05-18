@@ -271,6 +271,58 @@ CREATE TABLE works_with (
 </details>
 </br>
 
+<details><summary markdown="span">Fill in the data</summary>
+
+```SQL
+
+INSERT INTO Employee VALUES
+(100, 'Jan', 'Good', '1964-07-12', 'M', 30000, NULL),
+(102, 'Jana', 'Beauty', '1969-04-08', 'F', 50000, NULL),
+(104, 'Andy', 'Nothere', '1973-07-22', 'M', 65000, NULL);
+
+INSERT INTO Branch VALUES
+(1, 'Prague',  104),
+(2, 'Brno',  100),
+(3, 'Pilsen',  102);
+
+UPDATE employee
+SET branch_id = 1
+WHERE emp_id = 104; 
+
+UPDATE employee
+SET branch_id = 2
+WHERE emp_id = 100;
+
+UPDATE employee
+SET branch_id = 3
+WHERE emp_id = 102;
+
+INSERT INTO Employee VALUES
+(101, 'Jan', 'Good', '1964-07-12', 'M', 30000, 2),
+(103, 'Jana', 'Beauty', '1969-04-08', 'F', 50000, 1);
+
+INSERT INTO Client VALUES
+(400, 'PPL',  1),
+(401, 'Koito', 2),
+(402, 'CTU',  3);
+
+INSERT INTO Works_with VALUES
+(103, 400,  147000),
+(101, 400, 57000),
+(104, 401, 122000),
+(102, 402, 170000),
+(100, 402, 14000),
+(103, 401, 36800),
+(102, 400,  68000);
+
+```
+
+</details>
+</br>
+
+
+
+
 
 
 
