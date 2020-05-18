@@ -203,7 +203,7 @@ ORDER BY emp_id ASC;
 
 1. Create all these tables 
 
-![Database_schema](Database_schema.png)
+![Database_schema](Database_schema.PNG)
 
 HINT: 
 
