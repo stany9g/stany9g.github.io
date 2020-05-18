@@ -127,6 +127,38 @@ SELECT * FROM table_name;
 
 ```
 
+### Harder exercise
+
+1. Drop the table
+2. Create it with auto increment emp_id - Identity(startId, incremental))
+3. Insert values without id
+
+<details><summary markdown="span">Click to see the solution!</summary>
+
+```SQL
+
+DROP TABLE Employee;
+
+CREATE TABLE Employee (
+	emp_id INT IDENTITY(100,1) PRIMARY KEY,
+	first_name VARCHAR(25),
+	last_name VARCHAR(25),
+	birth_date DATE,
+	sex VARCHAR(1),
+	salary INT
+);
+
+INSERT INTO Employee(first_name, last_name, birth_date, sex, salary)  VALUES
+('Jan', 'Good', '1964-07-12', 'M', 30000),
+('Petr', 'Bad', '1977-02-03', 'M', 45000),
+('Jana', 'Beauty', '1969-04-08', 'F', 50000),
+('Angela', 'Merkel', '1944-04-09', 'F', 15000),
+('Andy', 'Nothere', '1973-07-22', 'M', 65000);
+
+```
+
+</details
+
 ### Update data in table
 
 ```SQL
@@ -134,5 +166,13 @@ SELECT * FROM table_name;
 UPDATE table_name
 SET column1 = value1, column2 = value2, ...
 WHERE condition;
+
+```
+
+### Delete data in table
+
+```SQL
+
+DELETE FROM table_name WHERE condition;
 
 ```
