@@ -80,7 +80,7 @@ VALUES
 
 ### Exercise:
 
-1. Create this table and fill it with data
+Create this table and fill it with data
 
 ![Employee table](Employee_table.png)
 
@@ -90,7 +90,7 @@ VALUES
 (103, 'Angela', 'Merkel', '1944-04-009', 'F', 15000),
 (104, 'Andy', 'Nothere', '1973-07-22', 'M', 65000),
 
-2. Add one more row with custom data where you do not state the salary (use first type of INSERT)
+Add one more row with custom data where you do not state the salary (use first type of INSERT)
 
 <details><summary markdown="span">Click to see the solution!</summary>
 
@@ -118,6 +118,7 @@ VALUES(105, 'Andy', 'Nothere', '1973-07-22', 'M');
 ```
 
 </details>
+<br/>
 
 ### Retrieve all data
 
@@ -158,6 +159,7 @@ INSERT INTO Employee(first_name, last_name, birth_date, sex, salary)  VALUES
 ```
 
 </details>
+<br/>
 
 
 ### Update data in table
@@ -201,7 +203,7 @@ ORDER BY emp_id ASC;
 
 ### Exercise:
 
-1. Create all these tables 
+Create all these tables 
 
 ![Database_schema](Database_schema.PNG)
 
@@ -269,6 +271,7 @@ CREATE TABLE works_with (
 ```
 
 </details>
+<br/>
 
 <details><summary markdown="span">Fill in the data</summary>
 
@@ -317,6 +320,7 @@ INSERT INTO Works_with VALUES
 ```
 
 </details>
+<br/>
 
 
 
