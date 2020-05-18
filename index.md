@@ -75,16 +75,6 @@ VALUES
     (value_list_n);
 ```
 
-<details><summary>CLICK ME</summary>
-
-yes, even hidden code blocks!
-
-```python
-print("hello world!")
-```
-
-</details>
-
 ### Exercise:
 
 1. Create this table and fill it with data
@@ -129,12 +119,10 @@ VALUES(105, 'Andy', 'Nothere', '1973-07-22', 'M');
 </details>
 
 
-<details><summary>CLICK ME</summary>
-
-yes, even hidden code blocks!
-
+<details><summary markdown="span">Let's see some code!</summary>
 ```python
-print("hello world!")
+print('Hello World!')
 ```
-
+Of course, it has to be Hello World, right?
 </details>
+<br/>
