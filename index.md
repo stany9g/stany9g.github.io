@@ -1,4 +1,17 @@
-## Welcome to GitHub Pages
+## Database basics | SQL
+
+Presentation
+
+Creating database
+
+```SQL
+
+CREATE DATABASE name (
+  column_name TYPE(length) CONSTRAINT,
+  ....
+);
+
+```
 
 <details><summary>CLICK ME</summary>
 
@@ -13,27 +26,5 @@ print("hello world!")
 </details>
 
 
-<details><summary markdown="span">Let's see some code!</summary>
-```python
-print('Hello World!')
-```
-Of course, it has to be Hello World, right?
-</details>
-<br/>
-
-This is regular text
-
-```ruby
-
-# This is highlighted code
-def foo
-  puts 'foo'
-end
-```
-```python
-# Here is some in python
-def foo():
-  print 'foo'
-```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
