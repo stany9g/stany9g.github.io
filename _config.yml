@@ -2,3 +2,4 @@ theme: jekyll-theme-midnight
 markdown: kramdown
 kramdown:
   parse_block_html: true
+  syntax_highlighter: rouge
