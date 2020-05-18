@@ -110,7 +110,8 @@ INSERT INTO Employee VALUES
 (103, 'Angela', 'Merkel', '1944-04-09', 'F', 15000),
 (104, 'Andy', 'Nothere', '1973-07-22', 'M', 65000);
 
-INSERT INTO Employee(emp_id, first_name, last_name, birth_date, sex) VALUES(105, 'Andy', 'Nothere', '1973-07-22', 'M');
+INSERT INTO Employee(emp_id, first_name, last_name, birth_date, sex)
+VALUES(105, 'Andy', 'Nothere', '1973-07-22', 'M');
 
 ```
 
@@ -120,8 +121,6 @@ Task 1:
 Create this table and fill it with data.
 
 <details><summary>CLICK ME</summary>
-
-yes, even hidden code blocks!
 
 ```python
 
