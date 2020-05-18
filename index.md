@@ -91,7 +91,7 @@ VALUES
 
 <details>
 	
-<summary> Click to see solution </summary>
+<details><summary markdown="span">Click to see the solution</summary>
 
 ```SQL
 
