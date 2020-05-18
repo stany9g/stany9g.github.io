@@ -89,7 +89,7 @@ VALUES
 
 2. Add one more row with custom data where you do not state the salary (use first type of INSERT)
 	
-<details><summary markdown="span">Click to see the solution</summary>
+<details><summary markdown="span">Click to see the solution!</summary>
 
 ```SQL
 
@@ -115,12 +115,3 @@ VALUES(105, 'Andy', 'Nothere', '1973-07-22', 'M');
 ```
 
 </details>
-
-
-<details><summary markdown="span">Let's see some code!</summary>
-```python
-print('Hello World!')
-```
-Of course, it has to be Hello World, right?
-</details>
-<br/>
