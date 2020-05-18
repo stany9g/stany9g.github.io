@@ -2,16 +2,34 @@
 
 Presentation
 
+Data types
+
+INT - integer - numbers
+VARCHAR - string - text
+DATETIME - date + time
+...
+
 Creating database
 
 ```SQL
 
 CREATE DATABASE name (
-  column_name TYPE(length) CONSTRAINT,
+  column_name TYPE(length) OPTIONS,
   ....
 );
 
 ```
+
+Delete the table 
+
+```SQL
+
+DROP TABLE name;
+
+```
+
+Task 1: 
+Create this table and fill it with data.
 
 <details><summary>CLICK ME</summary>
 
