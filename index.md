@@ -117,7 +117,7 @@ VALUES(105, 'Andy', 'Nothere', '1973-07-22', 'M');
 
 ```
 
-</details
+</details>
 
 ### Retrieve all data
 
