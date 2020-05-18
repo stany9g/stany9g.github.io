@@ -76,7 +76,7 @@ VALUES
 ```
 
 
-Exercise:
+### Exercise:
 
 1. Create this table and fill it with data
 
@@ -88,7 +88,7 @@ Exercise:
 (103, 'Angela', 'Merkel', '1944-04-009', 'F', 15000),
 (104, 'Andy', 'Nothere', '1973-07-22', 'M', 65000),
 
-Add one more row with custom data where you do not state the salary (use first type of INSERT)
+2. Add one more row with custom data where you do not state the salary (use first type of INSERT)
 
 <details><summary>Click to see solution </summary>
 
@@ -116,20 +116,3 @@ VALUES(105, 'Andy', 'Nothere', '1973-07-22', 'M');
 ```
 
 </details>
-
-Task 1: 
-Create this table and fill it with data.
-
-<details><summary>CLICK ME</summary>
-
-```python
-
-print("hello world!")
-
-```
-
-</details>
-
-
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
