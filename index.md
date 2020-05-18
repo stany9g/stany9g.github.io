@@ -80,7 +80,7 @@ Exercise:
 
 Create this table and fill the data
 
-![Employee table]()
+![Employee table](Employee_table.png)
 
 
 
