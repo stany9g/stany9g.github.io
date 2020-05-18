@@ -12,7 +12,10 @@
 * PRIMARY KEY
 * FOREIGN KEY
 * NOT NULL
+* UNIQUE
+* DEFAULT
 * IDENTITY(1,1)
+* ...1
 
 ### Creating database
 
@@ -114,4 +117,22 @@ VALUES(105, 'Andy', 'Nothere', '1973-07-22', 'M');
 
 ```
 
-</details>
+</details
+
+### Retrieve all data
+
+```SQL
+
+SELECT * FROM table_name;
+
+```
+
+### Update data in table
+
+```SQL
+
+UPDATE table_name
+SET column1 = value1, column2 = value2, ...
+WHERE condition;
+
+```
