@@ -76,7 +76,11 @@ VALUES
 ```
 
 
-Exercise1: 
+Exercise:
+
+Create this table and fill the data
+
+![Employee table]()
 
 
 
