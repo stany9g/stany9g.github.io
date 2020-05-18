@@ -75,6 +75,15 @@ VALUES
     (value_list_n);
 ```
 
+<details><summary>CLICK ME</summary>
+
+yes, even hidden code blocks!
+
+```python
+print("hello world!")
+```
+
+</details>
 
 ### Exercise:
 
@@ -115,6 +124,17 @@ INSERT INTO Employee VALUES
 INSERT INTO Employee(emp_id, first_name, last_name, birth_date, sex)
 VALUES(105, 'Andy', 'Nothere', '1973-07-22', 'M');
 
+```
+
+</details>
+
+
+<details><summary>CLICK ME</summary>
+
+yes, even hidden code blocks!
+
+```python
+print("hello world!")
 ```
 
 </details>
