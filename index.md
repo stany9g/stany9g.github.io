@@ -90,7 +90,9 @@ VALUES
 
 2. Add one more row with custom data where you do not state the salary (use first type of INSERT)
 
-<details><summary>Click to see solution </summary>
+<details>
+	
+<summary> Click to see solution </summary>
 
 ```SQL
 
