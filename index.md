@@ -82,7 +82,11 @@ Create this table and fill the data
 
 ![Employee table](Employee_table.png)
 
-
+(100, 'Jan', 'Good', '1964-07-12', 'M', 30000),
+(101, 'Petr', 'Bad', '1977-02-03', 'M', 45000),
+(102, 'Jana', 'Beauty', '1969-04-08', 'F', 50000),
+(103, 'Angela', 'Merkel', '1944-04-009', 'F', 15000),
+(104, 'Andy', 'Nothere', '1973-07-22', 'M', 65000),
 
 Task 1: 
 Create this table and fill it with data.
