@@ -1,7 +1,7 @@
 # Database basics | SQL
 
 ### Presentation
-[Database_basics](Database_basics.pptx)
+[Database Basics powerpoint](Database_basics.pptx)
 
 ### Data types
 * INT - integer - numbers
